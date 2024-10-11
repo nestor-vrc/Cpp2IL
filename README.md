@@ -1,8 +1,8 @@
-# Cpp2IL - Reverse Engineering for VRChat 🎮🔍
+# Cpp2IL - Reverse Engineering for VRChat :video_game::mag:
 
-Welcome to the **Cpp2IL** repository! This tool is designed to **reverse engineer** the Unity IL2CPP toolchain used in the popular VRChat game, allowing developers to access and analyze the game's assembly files. Whether you're a game developer, modder, or just curious about the internals of VRChat, Cpp2IL provides the resources you need.
+Welcome to the **Cpp2IL** repository! The Unity IL2CPP of the popular game **VRChat**, allows developers to reverse engineer and analyze the game's assembly files. Whether you're a game developer, modder, or just curious about the internals of **VRChat**, the **Cpp2IL** repository provides the necessary resources.
 
-## 📂 Overview of DLL Files
+## :open_file_folder: Overview of DLL Files
 
 This repository contains a collection of .dll files extracted from the VRChat game. You can utilize these files with decompiler tools like **ILSpy**, **dnSpy**, and **DotPeek** to analyze the game's structure and functionality. Below is a list of the included .dll files:
 
@@ -15,7 +15,7 @@ This repository contains a collection of .dll files extracted from the VRChat ga
 
 *Note: The complete list of .dll files can be found in the root directory.*
 
-## 🛠️ Usage
+## :tools: Usage
 
 To use this repository, follow these steps:
 
@@ -39,4 +39,4 @@ To use this repository, follow these steps:
 
 ---
 
-Happy reversing! 🎉🔧
+Happy reversing! :tada::wrench:

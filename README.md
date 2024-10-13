@@ -1,25 +1,26 @@
-# Cpp2IL - Reverse Engineering for VRChat :video_game::mag:
+# Cpp2IL - Reverse Engineering for VRChat 🎮🔍
 
-Welcome to the **Cpp2IL** repository! The Unity IL2CPP of the popular game **VRChat**, allows developers to reverse engineer and analyze the game's assembly files. Whether you're a game developer, modder, or just curious about the internals of **VRChat**, the **Cpp2IL** repository provides the necessary resources.
+Welcome to the **Cpp2IL** repository! The Unity IL2CPP of the popular game **VRChat** allows developers to reverse engineer and analyze the game's assembly files. Whether you're a game developer, modder, or just curious about the internals of **VRChat**, the **Cpp2IL** repository provides the necessary resources.
 
-## :open_file_folder: Overview of DLL Files
+## 📂 Overview of DLL Files
 
 This repository contains a collection of .dll files extracted from the VRChat game. You can utilize these files with decompiler tools like **ILSpy**, **dnSpy**, and **DotPeek** to analyze the game's structure and functionality. Below is a list of the included .dll files:
 
-| DLL File Name | Size     | Description                          |
-|---------------|----------|--------------------------------------|
-| Assembly-CSharp-firstpass.dll | 757k    | Core assembly for first pass scripts. |
-| Assembly-CSharp.dll | 11M      | Main assembly containing C# code for the game. |
-| AVProVideo.Extensions.Timeline.dll | 3.6k    | Extensions for AVPro video timeline functionality. |
-| ... | ... | ... (Add more rows as needed) |
+| DLL File Name                  | Size     | Description                          |
+|---------------------------------|----------|--------------------------------------|
+| Assembly-CSharp-firstpass.dll   | 738KB    | Core assembly for first pass scripts. |
+| Assembly-CSharp.dll             | 10.2MB   | Main assembly containing C# code for the game. |
+| AVProVideo.Extensions.Timeline.dll | 3.00KB | Extensions for AVPro video timeline functionality. |
+| ...                             | ...      | ... (Add more rows as needed)         |
 
 *Note: The complete list of .dll files can be found in the root directory.*
 
-## :tools: Usage
+## 🛠️ Usage
 
 To use this repository, follow these steps:
 
 1. **Clone the repository**:
+
     ```bash
     git clone https://github.com/nestor-vrc/Cpp2IL.git
     cd Cpp2IL
@@ -37,6 +38,8 @@ To use this repository, follow these steps:
 4. **Analyze and explore**:
    Use the decompiler's features to navigate through the code, view class structures, and examine methods.
 
----
+## Credit
 
-Happy reversing! :tada::wrench:
+This repository leverages [Il2CppDumper-GUI](https://github.com/AndnixSH/Il2CppDumper-GUI) to dump .dll files from GameAssembly.dll and global-metadata.dat. If you're looking for a powerful tool for IL2CPP reversing, be sure to check it out.
+
+Happy reversing! 🎉🔧
